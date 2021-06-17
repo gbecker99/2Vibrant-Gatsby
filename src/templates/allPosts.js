@@ -31,22 +31,9 @@ const allPosts = ({ pageContext, data }) => {
           We are busy developing a new look and awesome new content. Please return again soon.
         </P>
       
-        {posts.map(post => (
-          <ContentCard
-            //  key={post.node.frontmatter.slug}
-            // date={post.node.frontmatter.date}
-            // title={post.node.frontmatter.title}
-            // excerpt={post.node.frontmatter.excerpt}
-           // slug={post.node.frontmatter.slug}
-          />
-        ))}
+      
       </Content>
-      <Pagination
-       //  isFirst={isFirst}
-        // isLast={isLast}
-        // prevPage={prevPage}
-        // nextPage={nextPage}
-      />
+    
     </Container>
     
   )
