@@ -8,6 +8,7 @@ module.exports = {
     twitterUsername: "@hunterbecton",
     author: "Skillthrive",
   },
+  plugins: [`gatsby-plugin-preload-fonts`],
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
@@ -55,3 +56,6 @@ module.exports = {
     },
   ],
 }
+
+  
+
