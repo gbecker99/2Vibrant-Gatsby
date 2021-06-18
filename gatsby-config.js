@@ -8,7 +8,7 @@ module.exports = {
     twitterUsername: "@hunterbecton",
     author: "Skillthrive",
   },
-  plugins: [`gatsby-plugin-preload-fonts`],
+  
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
@@ -31,6 +31,7 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
+    `gatsby-plugin-preload-fonts`
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
     {
